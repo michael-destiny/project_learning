@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import cn.berserker.projectlearning.R;
+import hugo.weaving.DebugLog;
 import timber.log.Timber;
 
 /**
@@ -20,9 +21,11 @@ public class MainActivityFragment extends Fragment {
     }
 
     @Override
+    @DebugLog
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_main, container, false);
+        View view = inflater.inflate(R.layout.fragment_main, container, false);
+        return view;
     }
 
     @Override
@@ -31,8 +34,13 @@ public class MainActivityFragment extends Fragment {
         view.findViewById(R.id.testClick).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Timber.i("A button with ID %s was clicked to say '%s'.", v.getId(), ((Button)v).getText());
+                calculateLog(v);
             }
         });
+    }
+
+    @DebugLog
+    private void calculateLog(View view) {
+        Timber.i("A button with ID %s was clicked to say '%s'.", view.getId(), ((Button)view).getText());
     }
 }
