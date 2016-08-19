@@ -40,5 +40,13 @@ TIPS:
 [2_______________]: #SVG
 [2_0]: about:blank
 
+[3_______________]: #rxjava
+[3_0]: https://medium.com/fuzz/howdy-rxjava-8f40fef88181#.qrv5djq51
+[3_1]: https://artemzin.com/blog/rxjava-thread-safety-of-operators-and-subjects/
+[3_2]: http://www.andevcon.com/news/crash-course-on-rxjava-with-thomas-nield-part-1?utm_content=buffer4d157&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+
+
+[4_______________]: #others
+[4_0]: https://github.com/pedrovgs/EffectiveAndroidUI/
 
 
