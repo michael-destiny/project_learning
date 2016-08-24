@@ -5,18 +5,33 @@ ext {
     androidMinSdkVersion = 15
     androidTargetSdkVersion = 21
 
+    appcompat_v7Version = '23.4.0'
+    designVersion = '23.4.0'
+
 
     //Development
     leakCanaryVersion = '1.3.1'
     timberVersion = '4.2.0'
 
+    //test
+    junitVersion = '4.12'
+
     presentationDependencies = [
 
+    ]
+
+    androidDependencies = [
+            com_android_support_appcompat: "com.android.support:appcompat-v7:${appcompat_v7Version}",
+            com_android_support_design: "com.android.support:design:${designVersion}",
     ]
 
     developmentDependencies = [
             leakCanary: "com.squareup.leakcanary:leakcanary-android:${leakCanaryVersion}",
             timber: "com.jakewharton.timber:timber:${timberVersion}",
+    ]
+
+    testDependencies = [
+            junit: "junit:junit:${junitVersion}",
     ]
 
 }
