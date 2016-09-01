@@ -23,17 +23,23 @@ android {
 }
 
 dependencies {
-
     def developmentDependencies = rootProject.ext.developmentDependencies
     def androidDependencies = rootProject.ext.androidDependencies
     def testDependencies = rootProject.ext.testDependencies
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile testDependencies.junit
 
+    testCompile testDependencies.junit
     compile androidDependencies.com_android_support_appcompat
     compile androidDependencies.com_android_support_design
 
+    compile androidDependencies.dagger
+    apt androidDependencies.dagger_compiler
+
+    compile androidDependencies.butterknife
+    apt androidDependencies.butterknife_compiler
+
     compile developmentDependencies.timber
     compile developmentDependencies.leakCanary
+
 }

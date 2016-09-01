@@ -1,10 +1,11 @@
-package cn.berserker.projectlearning;
+package cn.berserker.projectlearning.presentation;
 
 import android.app.Application;
 import android.util.Log;
 
 import com.squareup.leakcanary.LeakCanary;
 
+import cn.berserker.projectlearning.BuildConfig;
 import timber.log.Timber;
 
 /**

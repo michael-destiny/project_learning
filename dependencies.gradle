@@ -7,6 +7,10 @@ ext {
 
     appcompat_v7Version = '23.4.0'
     designVersion = '23.4.0'
+    daggerVersion = '2.6.1'
+    daggerCompilerVersion = '2.6.1'
+    butterknifeVersion = '8.4.0'
+    butterknifeCompilerVersion = '8.4.0'
 
 
     //Development
@@ -23,12 +27,18 @@ ext {
     androidDependencies = [
             com_android_support_appcompat: "com.android.support:appcompat-v7:${appcompat_v7Version}",
             com_android_support_design: "com.android.support:design:${designVersion}",
+            dagger: "com.google.dagger:dagger:${daggerVersion}",
+            dagger_compiler: "com.google.dagger:dagger-compiler:${daggerCompilerVersion}",
+            butterknife: "com.jakewharton:butterknife:${butterknifeVersion}",
+            butterknife_compiler: "com.jakewharton:butterknife-compiler:${butterknifeCompilerVersion}",
+
     ]
 
     developmentDependencies = [
             leakCanary: "com.squareup.leakcanary:leakcanary-android:${leakCanaryVersion}",
             timber: "com.jakewharton.timber:timber:${timberVersion}",
     ]
+
 
     testDependencies = [
             junit: "junit:junit:${junitVersion}",

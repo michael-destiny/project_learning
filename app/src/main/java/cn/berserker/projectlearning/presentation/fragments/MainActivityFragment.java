@@ -1,4 +1,4 @@
-package cn.berserker.projectlearning.presentation.ui.fragments;
+package cn.berserker.projectlearning.presentation.fragments;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 
 import cn.berserker.projectlearning.R;
 import hugo.weaving.DebugLog;
