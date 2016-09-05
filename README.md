@@ -54,6 +54,7 @@ TIPS:
 [5_0]: http://antonioleiva.com/mvp-android/
 
 [6_______________]: #dagger2
+[6_0]: https://docs.google.com/document/d/1fwg-NsMKYtYxeEWe82rISIHjNrtdqonfiHgp8-PQ7m8/edit#
 
 [7_______________]: #apt#Annotation_Processor 
 [7_0]: https://bitbucket.org/hvisser/android-apt
@@ -65,6 +66,9 @@ TIPS:
 [8_______________]: #butter_knife
 [8_0]: http://jakewharton.github.io/butterknife/
 
+[9_______________]: #robinhood_ticker
+[9_0]: https://github.com/robinhood/ticker
+[9_1]: https://medium.com/robinhood-engineering/hello-ticker-20eaf6e51689#.selhfo8di
 
 
 

@@ -6,6 +6,9 @@ import android.util.Log;
 import com.squareup.leakcanary.LeakCanary;
 
 import cn.berserker.projectlearning.BuildConfig;
+import cn.berserker.projectlearning.presentation.internal.di.components.ApplicationComponent;
+import cn.berserker.projectlearning.presentation.internal.di.components.DaggerApplicationComponent;
+import cn.berserker.projectlearning.presentation.internal.di.modules.ApplicationModule;
 import timber.log.Timber;
 
 /**
@@ -13,10 +16,15 @@ import timber.log.Timber;
  */
 public class LearningApp extends Application {
 
+    private ApplicationComponent applicationComponent;
+
     @Override
     public void onCreate() {
         super.onCreate();
 
+        applicationComponent =
+            DaggerApplicationComponent.builder()
+                .applicationModule(new ApplicationModule(LearningApp.this)).build();
 
         //init timber.
         installTimber();
