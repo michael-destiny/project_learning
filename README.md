@@ -12,6 +12,15 @@ TIPS:
 	2.only upload code in the night. *_*
 	3.hugo only work in debug mode.
 
+---------
+##Process:
+
+1. 账户验证相关
+
+	* 登陆 -> 验证 -> 业务结束,进入主页面
+	* 进入主页面 -> 验证token -> 如有异常 -> 关闭主页面 -> 进入登陆
+	
+
 
 ## Read Links
 
@@ -44,6 +53,7 @@ TIPS:
 [3_0]: https://medium.com/fuzz/howdy-rxjava-8f40fef88181#.qrv5djq51
 [3_1]: https://artemzin.com/blog/rxjava-thread-safety-of-operators-and-subjects/
 [3_2]: http://www.andevcon.com/news/crash-course-on-rxjava-with-thomas-nield-part-1?utm_content=buffer4d157&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+[3_3]: https://zhuanlan.zhihu.com/p/20687178?refer=baron
 
 
 [4_______________]: #others
