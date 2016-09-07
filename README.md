@@ -55,6 +55,8 @@ TIPS:
 
 [6_______________]: #dagger2
 [6_0]: https://docs.google.com/document/d/1fwg-NsMKYtYxeEWe82rISIHjNrtdqonfiHgp8-PQ7m8/edit#
+[6_1]: http://www.jianshu.com/p/65737ac39c44
+[6_2]: http://blog.csdn.net/hsk256/article/details/51530667
 
 [7_______________]: #apt#Annotation_Processor 
 [7_0]: https://bitbucket.org/hvisser/android-apt
@@ -65,6 +67,7 @@ TIPS:
 
 [8_______________]: #butter_knife
 [8_0]: http://jakewharton.github.io/butterknife/
+[8_1]: http://2dxgujun.com/post/2015/06/07/butterknife-analysis.html
 
 [9_______________]: #robinhood_ticker
 [9_0]: https://github.com/robinhood/ticker
