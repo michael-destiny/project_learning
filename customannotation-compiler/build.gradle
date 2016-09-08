@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+
+
+dependencies {
+
+    def developmentDependencies = rootProject.ext.developmentDependencies
+    def androidDependencies = rootProject.ext.androidDependencies
+    def testDependencies = rootProject.ext.testDependencies
+
+
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile developmentDependencies.autoservice
+    compile developmentDependencies.autocommon
+}
